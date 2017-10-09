@@ -1,0 +1,186 @@
+#scoreboard h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#scoreboard ul {
+    margin: 0;
+    padding: 0;
+}
+#scoreboard ul li {
+    display: inline-block;
+    border: 1px solid #a1a1a1;
+    border-radius: 4px;
+    font-size: 16px;
+    width: calc(33.33% - 8px);
+    max-width: 360px;
+    margin: 0 8px 8px 0;
+}
+
+#scoreboard ul li section {
+    padding: 8px;
+}
+
+#scoreboard ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+#scoreboard ul li.islive {
+    /*    border: 1px solid #ff0000; */
+}
+
+#scoreboard ul li h2 {
+    font-size: 14px;
+    color: #999999;
+    border-bottom:  1px solid #f1f1f1;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 8px 0;
+    padding-bottom:  2px;
+    vertical-align: middle;
+}
+
+#scoreboard ul li h2 p {
+    display: inline-block;
+    margin: 0;
+}
+
+#scoreboard ul li h2 a {
+    color: #a1a1a1;
+}
+
+#scoreboard ul li h2 span {
+    float: right;
+}
+
+#scoreboard ul li.islive h2 {
+    color: #EF0000;
+}
+
+#scoreboard ul li h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 22px;
+    vertical-align: middle;
+}
+
+#scoreboard ul li h3.lost {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#scoreboard ul li h3 span {
+    float: right;
+    font-size: 18px;
+}
+
+#scoreboard ul li h3 div {
+    display: inline-block;
+}
+
+#scoreboard ul li h3 p {
+    display: none;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Abel Regular'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v7/brdGGFwqYJxjg2CD1E9o7g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@media all and (max-width: 768px) {
+    #scoreboard ul li {
+        width: calc(50% - 6px);
+    }
+
+    #scoreboard ul li:nth-child(3n) {
+        margin-right: 8px;
+    }
+
+    #scoreboard ul li:nth-child(even) {
+        margin-right: 0;
+    }
+
+    #scoreboard ul li h2 p {
+        display: none;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 440px) {
+
+    #scoreboard ul li h3 p {
+        display: inline-block;
+        margin: 0;
+    }
+
+    #scoreboard ul li h3 div {
+        display: none;
+    }
+}
+
+@media all and (max-width: 320px) {
+    #scoreboard ul li {
+        width: 100%;
+        margin-right: 8px;
+    }
+}

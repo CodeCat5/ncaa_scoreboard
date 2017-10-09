@@ -1,0 +1,14 @@
+ncaa_scoreboard.content:
+  path: '/scoreboard'
+  defaults:
+    _controller: '\Drupal\ncaa_scoreboard\Controller\ScoreboardController::content'
+    _title: 'NCAA Scoreboard'
+  requirements:
+    _permission: 'access content'
+ncaa_scoreboard.json:
+  path: '/scoreboard/json'
+  defaults:
+    _controller: '\Drupal\ncaa_scoreboard\Controller\ScoreboardController::json'
+    _title: 'NCAA JSON'
+  requirements:
+    _permission: 'access content'
